@@ -1,6 +1,6 @@
 class Cellule:
-    def __init__(self):
-        self.actuel = False
+    def __init__(self,state):
+        self.actuel = state
         self.futur = False
         voisins = []
 
