@@ -7,10 +7,10 @@ class Cellule:
     def est_vivant(self):
         return self.actuel
 
-    def set_voisins(self):
+    # def set_voisins(self):
 
     def get_voisins(self):
-        return voisins
+        return self.voisins
 
     def naitre(self):
         self.futur = True
@@ -22,9 +22,9 @@ class Cellule:
         self.actuel = self.futur
 
     def __str__(self):
-        if self.actuel=True:
-            return X
-        elif self.actuel=False:
-            return -
+        if self.actuel==True:
+            return "#000000"
+        elif self.actuel==False:
+            return "#FFFFFF"
 
     
